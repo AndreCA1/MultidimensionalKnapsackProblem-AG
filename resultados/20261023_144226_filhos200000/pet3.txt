@@ -1,0 +1,48 @@
+==============================================================================
+Instancia: pet3
+Arquivo:   All-MKP-Instances/sac94/pet/pet3.dat
+Itens (n): 15   Recursos (m): 10
+Otimo / melhor conhecido: 4015
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        4015      0.0000     2.7347      sim     200000          0        0.02      124.38
+   2            2        4015      0.0000     2.7347      sim     200000         22        0.02      103.38
+   3            3        4015      0.0000     2.7347      sim     200000          7        0.01      112.40
+   4            4        4015      0.0000     2.7347      sim     200000          6        0.02      110.77
+   5            5        4015      0.0000     2.7347      sim     200000         34        0.02       86.18
+   6            6        4015      0.0000     2.7347      sim     200000         23        0.02       94.91
+   7            7        4015      0.0000     2.7347      sim     200000         13        0.01      103.89
+   8            8        4015      0.0000     2.7347      sim     200000         30        0.02       89.98
+   9            9        4015      0.0000     2.7347      sim     200000         35        0.03      115.11
+  10           10        4015      0.0000     2.7347      sim     200000          0        0.01       98.63
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 4127.89
+  Melhor lucro:   4015
+  Pior lucro:     4015
+  Lucro medio:    4015.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        2.7347%
+  Tempo medio por execucao: 103.96 s
+  Filhos duplicados descartados (total): 6367146
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 9 de 15
+  Viavel: sim
+  Ocupacao dos recursos: minima 77.10%  media 90.62%  maxima 98.05%
+    recurso  1:        515 / 550        ( 93.64%)
+    recurso  2:        665 / 700        ( 95.00%)
+    recurso  3:        118 / 130        ( 90.77%)
+    recurso  4:        207 / 240        ( 86.25%)
+    recurso  5:        227 / 280        ( 81.07%)
+    recurso  6:        239 / 310        ( 77.10%)
+    recurso  7:        106 / 110        ( 96.36%)
+    recurso  8:        201 / 205        ( 98.05%)
+    recurso  9:        241 / 260        ( 92.69%)
+    recurso 10:        262 / 275        ( 95.27%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/pet3.csv

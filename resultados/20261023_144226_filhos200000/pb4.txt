@@ -1,0 +1,40 @@
+==============================================================================
+Instancia: pb4
+Arquivo:   All-MKP-Instances/sac94/pb/pb4.dat
+Itens (n): 29   Recursos (m): 2
+Otimo / melhor conhecido: 95168
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1       95168      0.0000     4.4716      sim     200000          6        0.04       71.95
+   2            2       95168      0.0000     4.4716      sim     200000        131        0.09       85.30
+   3            3       95168      0.0000     4.4716      sim     200000         27        0.01       82.53
+   4            4       95168      0.0000     4.4716      sim     200000        273        0.19       85.51
+   5            5       95168      0.0000     4.4716      sim     200000        133        0.05       93.60
+   6            6       95168      0.0000     4.4716      sim     200000        167        0.11       73.69
+   7            7       95168      0.0000     4.4716      sim     200000        148        0.10       72.66
+   8            8       95168      0.0000     4.4716      sim     200000        155        0.06       77.61
+   9            9       95168      0.0000     4.4716      sim     200000        149        0.09       88.65
+  10           10       95168      0.0000     4.4716      sim     200000        160        0.16       83.35
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 99622.68
+  Melhor lucro:   95168
+  Pior lucro:     95168
+  Lucro medio:    95168.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        4.4716%
+  Tempo medio por execucao: 81.49 s
+  Filhos duplicados descartados (total): 3298323
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 14 de 29
+  Viavel: sim
+  Ocupacao dos recursos: minima 96.08%  media 97.39%  maxima 98.70%
+    recurso  1:        147 / 153        ( 96.08%)
+    recurso  2:        152 / 154        ( 98.70%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/pb4.csv

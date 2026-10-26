@@ -1,0 +1,48 @@
+==============================================================================
+Instancia: pet2
+Arquivo:   All-MKP-Instances/sac94/pet/pet2.dat
+Itens (n): 10   Recursos (m): 10
+Otimo / melhor conhecido: 87061
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1       87061      0.0000     6.3630      sim          0          0        0.20        9.23
+   2            2       87061      0.0000     6.3630      sim          0          0        0.18        9.08
+   3            3       87061      0.0000     6.3630      sim          0          0        0.17       11.92
+   4            4       87061      0.0000     6.3630      sim          0          0        0.20       14.41
+   5            5       87061      0.0000     6.3630      sim          0          0        0.31       13.57
+   6            6       87061      0.0000     6.3630      sim          0          0        0.19       11.54
+   7            7       87061      0.0000     6.3630      sim          0          0        0.19       12.02
+   8            8       87061      0.0000     6.3630      sim          0          0        0.27        9.98
+   9            9       87061      0.0000     6.3630      sim          0          0        0.31       16.47
+  10           10       87061      0.0000     6.3630      sim          0          0        0.31       15.39
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 92977.12
+  Melhor lucro:   87061
+  Pior lucro:     87061
+  Lucro medio:    87061.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        6.3630%
+  Tempo medio por execucao: 12.36 s
+  Filhos duplicados descartados (total): 1000000
+  Motivo de parada (melhor execucao): populacao estagnada (so duplicados)
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 5 de 10
+  Viavel: sim
+  Ocupacao dos recursos: minima 79.50%  media 88.18%  maxima 99.81%
+    recurso  1:        397 / 450        ( 88.22%)
+    recurso  2:        539 / 540        ( 99.81%)
+    recurso  3:        159 / 200        ( 79.50%)
+    recurso  4:        302 / 360        ( 83.89%)
+    recurso  5:        381 / 440        ( 86.59%)
+    recurso  6:        430 / 480        ( 89.58%)
+    recurso  7:        164 / 200        ( 82.00%)
+    recurso  8:        300 / 360        ( 83.33%)
+    recurso  9:        400 / 440        ( 90.91%)
+    recurso 10:        470 / 480        ( 97.92%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/pet2.csv

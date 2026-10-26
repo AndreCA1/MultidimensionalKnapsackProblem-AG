@@ -1,0 +1,14 @@
+# Ambiente e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Artigos de referencia (direitos autorais) e material de outras atividades
+fontes/
+estudoCaixeiroViajante.pdf
+instrucoes.txt
+
+# Relatorio e apresentacao sao entregues separadamente
+*.docx
+*.pptx
+~$*

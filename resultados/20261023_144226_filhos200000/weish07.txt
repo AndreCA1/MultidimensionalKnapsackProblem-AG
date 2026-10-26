@@ -1,0 +1,43 @@
+==============================================================================
+Instancia: weish07
+Arquivo:   All-MKP-Instances/sac94/weish/weish07.dat
+Itens (n): 40   Recursos (m): 5
+Otimo / melhor conhecido: 5567
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        5567      0.0000     0.6223      sim     200000        146        0.06       87.46
+   2            2        5567      0.0000     0.6223      sim     200000         86        0.04       95.26
+   3            3        5567      0.0000     0.6223      sim     200000        105        0.05       82.02
+   4            4        5567      0.0000     0.6223      sim     200000        102        0.04       85.56
+   5            5        5567      0.0000     0.6223      sim     200000        128        0.05       84.81
+   6            6        5567      0.0000     0.6223      sim     200000        131        0.05       88.29
+   7            7        5567      0.0000     0.6223      sim     200000        101        0.03       61.92
+   8            8        5567      0.0000     0.6223      sim     200000        154        0.04       82.51
+   9            9        5567      0.0000     0.6223      sim     200000         60        0.03       76.56
+  10           10        5567      0.0000     0.6223      sim     200000        141        0.05       85.08
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 5601.86
+  Melhor lucro:   5567
+  Pior lucro:     5567
+  Lucro medio:    5567.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        0.6223%
+  Tempo medio por execucao: 82.95 s
+  Filhos duplicados descartados (total): 3162284
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 20 de 40
+  Viavel: sim
+  Ocupacao dos recursos: minima 64.42%  media 89.86%  maxima 98.96%
+    recurso  1:        475 / 480        ( 98.96%)
+    recurso  2:        585 / 600        ( 97.50%)
+    recurso  3:        692 / 700        ( 98.86%)
+    recurso  4:        773 / 1200       ( 64.42%)
+    recurso  5:       1075 / 1200       ( 89.58%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/weish07.csv

@@ -1,0 +1,38 @@
+==============================================================================
+Instancia: pb7
+Arquivo:   All-MKP-Instances/sac94/pb/pb7.dat
+Itens (n): 37   Recursos (m): 30
+Otimo / melhor conhecido: 1035
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        1035      0.0000     4.7139      sim     200000         83        0.03       56.13
+   2            2        1035      0.0000     4.7139      sim     200000         78        0.04       44.81
+   3            3        1035      0.0000     4.7139      sim     200000         32        0.03       50.70
+   4            4        1035      0.0000     4.7139      sim     200000         27        0.03       47.20
+   5            5        1035      0.0000     4.7139      sim     200000         18        0.02       49.26
+   6            6        1035      0.0000     4.7139      sim     200000         19        0.03       54.64
+   7            7        1035      0.0000     4.7139      sim     200000         23        0.02       38.28
+   8            8        1035      0.0000     4.7139      sim     200000         61        0.02       52.27
+   9            9        1035      0.0000     4.7139      sim     200000         22        0.03       47.29
+  10           10        1035      0.0000     4.7139      sim     200000         40        0.02       46.77
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 1086.20
+  Melhor lucro:   1035
+  Pior lucro:     1035
+  Lucro medio:    1035.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        4.7139%
+  Tempo medio por execucao: 48.73 s
+  Filhos duplicados descartados (total): 828491
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 17 de 37
+  Viavel: sim
+  Ocupacao dos recursos: minima 33.06%  media 69.53%  maxima 99.54%
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/pb7.csv

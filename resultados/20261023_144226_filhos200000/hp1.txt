@@ -1,0 +1,42 @@
+==============================================================================
+Instancia: hp1
+Arquivo:   All-MKP-Instances/sac94/hp/hp1.dat
+Itens (n): 28   Recursos (m): 4
+Otimo / melhor conhecido: 3418
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        3418      0.0000     1.5651      sim     200000        718        0.25       43.64
+   2            2        3418      0.0000     1.5651      sim     200000       1504        0.65       33.59
+   3            3        3418      0.0000     1.5651      sim     200000        320        0.17       52.21
+   4            4        3418      0.0000     1.5651      sim     200000        355        0.16       40.29
+   5            5        3418      0.0000     1.5651      sim     200000         14        0.02       37.53
+   6            6        3418      0.0000     1.5651      sim     200000        397        0.11       33.31
+   7            7        3418      0.0000     1.5651      sim     200000        518        0.15       32.68
+   8            8        3418      0.0000     1.5651      sim     200000        246        0.08       38.09
+   9            9        3418      0.0000     1.5651      sim     200000        366        0.19       38.99
+  10           10        3418      0.0000     1.5651      sim     200000        434        0.14       46.34
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 3472.35
+  Melhor lucro:   3418
+  Pior lucro:     3418
+  Lucro medio:    3418.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        1.5651%
+  Tempo medio por execucao: 39.67 s
+  Filhos duplicados descartados (total): 754193
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 18 de 28
+  Viavel: sim
+  Ocupacao dos recursos: minima 96.63%  media 98.32%  maxima 100.00%
+    recurso  1:        216 / 219        ( 98.63%)
+    recurso  2:        199 / 203        ( 98.03%)
+    recurso  3:        201 / 208        ( 96.63%)
+    recurso  4:        180 / 180        (100.00%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/hp1.csv

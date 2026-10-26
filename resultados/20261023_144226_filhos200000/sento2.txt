@@ -1,0 +1,38 @@
+==============================================================================
+Instancia: sento2
+Arquivo:   All-MKP-Instances/sac94/sento/sento2.dat
+Itens (n): 60   Recursos (m): 30
+Otimo / melhor conhecido: 8722
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        8722      0.0000     0.5836      sim     200000        261        0.10       54.97
+   2            2        8722      0.0000     0.5836      sim     200000        453        0.10       59.00
+   3            3        8722      0.0000     0.5836      sim     200000        236        0.10       57.39
+   4            4        8722      0.0000     0.5836      sim     200000        199        0.05       54.65
+   5            5        8722      0.0000     0.5836      sim     200000        387        0.16       64.82
+   6            6        8722      0.0000     0.5836      sim     200000        185        0.08       58.01
+   7            7        8722      0.0000     0.5836      sim     200000        187        0.05       56.49
+   8            8        8722      0.0000     0.5836      sim     200000        297        0.12       62.41
+   9            9        8722      0.0000     0.5836      sim     200000        214        0.05       58.45
+  10           10        8722      0.0000     0.5836      sim     200000        267        0.11       62.15
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 8773.20
+  Melhor lucro:   8722
+  Pior lucro:     8722
+  Lucro medio:    8722.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        0.5836%
+  Tempo medio por execucao: 58.83 s
+  Filhos duplicados descartados (total): 1282453
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 33 de 60
+  Viavel: sim
+  Ocupacao dos recursos: minima 52.78%  media 81.20%  maxima 99.73%
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/sento2.csv

@@ -1,0 +1,40 @@
+==============================================================================
+Instancia: weing5
+Arquivo:   All-MKP-Instances/sac94/weing/weing5.dat
+Itens (n): 28   Recursos (m): 2
+Otimo / melhor conhecido: 98796
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1       98796      0.0000     1.6301      sim     200000          3        0.02      112.43
+   2            2       98796      0.0000     1.6301      sim     200000         14        0.02      110.18
+   3            3       98796      0.0000     1.6301      sim     200000          2        0.02       99.37
+   4            4       98796      0.0000     1.6301      sim     200000          2        0.02      118.64
+   5            5       98796      0.0000     1.6301      sim     200000         20        0.02      122.57
+   6            6       98796      0.0000     1.6301      sim     200000          6        0.02      118.35
+   7            7       98796      0.0000     1.6301      sim     200000         27        0.02      111.22
+   8            8       98796      0.0000     1.6301      sim     200000         73        0.03      120.92
+   9            9       98796      0.0000     1.6301      sim     200000         37        0.02      102.02
+  10           10       98796      0.0000     1.6301      sim     200000          1        0.01      109.56
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 100433.15
+  Melhor lucro:   98796
+  Pior lucro:     98796
+  Lucro medio:    98796.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        1.6301%
+  Tempo medio por execucao: 112.53 s
+  Filhos duplicados descartados (total): 4186802
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 9 de 28
+  Viavel: sim
+  Ocupacao dos recursos: minima 85.00%  media 92.17%  maxima 99.33%
+    recurso  1:        510 / 600        ( 85.00%)
+    recurso  2:        298 / 300        ( 99.33%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/weing5.csv

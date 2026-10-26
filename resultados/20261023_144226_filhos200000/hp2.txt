@@ -1,0 +1,42 @@
+==============================================================================
+Instancia: hp2
+Arquivo:   All-MKP-Instances/sac94/hp/hp2.dat
+Itens (n): 35   Recursos (m): 4
+Otimo / melhor conhecido: 3186
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        3186      0.0000     2.3245      sim     200000       2037        0.77       41.82
+   2            2        3186      0.0000     2.3245      sim     200000       1649        0.74       52.06
+   3            3        3186      0.0000     2.3245      sim     200000       1708        0.90       53.78
+   4            4        3186      0.0000     2.3245      sim     200000       1239        0.64       50.70
+   5            5        3186      0.0000     2.3245      sim     200000       1053        0.34       41.77
+   6            6        3186      0.0000     2.3245      sim     200000       1573        0.78       55.38
+   7            7        3186      0.0000     2.3245      sim     200000       1498        0.75       41.99
+   8            8        3186      0.0000     2.3245      sim     200000       1881        0.80       48.71
+   9            9        3186      0.0000     2.3245      sim     200000        274        0.15       48.05
+  10           10        3186      0.0000     2.3245      sim     200000       2127        0.57       39.08
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 3261.82
+  Melhor lucro:   3186
+  Pior lucro:     3186
+  Lucro medio:    3186.00
+  Desvio padrao:  0.00
+  Gap medio em relacao a referencia: 0.0000%
+  Execucoes que atingiram a referencia: 10/10
+  Gap medio em relacao ao LP:        2.3245%
+  Tempo medio por execucao: 47.33 s
+  Filhos duplicados descartados (total): 837424
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 23 de 35
+  Viavel: sim
+  Ocupacao dos recursos: minima 93.33%  media 98.23%  maxima 100.00%
+    recurso  1:        163 / 163        (100.00%)
+    recurso  2:        154 / 165        ( 93.33%)
+    recurso  3:        238 / 239        ( 99.58%)
+    recurso  4:        168 / 168        (100.00%)
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/hp2.csv

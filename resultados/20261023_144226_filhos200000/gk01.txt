@@ -1,0 +1,38 @@
+==============================================================================
+Instancia: gk01
+Arquivo:   All-MKP-Instances/gk/gk01.dat
+Itens (n): 100   Recursos (m): 15
+Otimo / melhor conhecido: 3766
+Parametros: populacao=100  filhos=200000  mutacao=2 bits  execucoes=10  semente=1  tempo limite=-
+==============================================================================
+Exec      Semente       Lucro    Gap ref%    Gap LP%   Viavel     Filhos   F.melhor    T.melhor     T.total
+   1            1        3766      0.0000     0.2626      sim     200000      16113        3.65       42.94
+   2            2        3766      0.0000     0.2626      sim     200000      23887        5.90       45.25
+   3            3        3759      0.1859     0.4480      sim     200000      17618        4.30       45.13
+   4            4        3766      0.0000     0.2626      sim     200000      88765       21.80       45.73
+   5            5        3766      0.0000     0.2626      sim     200000      52565       11.10       43.76
+   6            6        3766      0.0000     0.2626      sim     200000     172549       36.81       41.99
+   7            7        3759      0.1859     0.4480      sim     200000      36261        8.72       45.01
+   8            8        3759      0.1859     0.4480      sim     200000       8995        1.86       44.53
+   9            9        3766      0.0000     0.2626      sim     200000      25883        5.56       44.00
+  10           10        3766      0.0000     0.2626      sim     200000       6027        1.17       43.52
+------------------------------------------------------------------------------
+Resumo
+  Limite da relaxacao linear (LP): 3775.92
+  Melhor lucro:   3766
+  Pior lucro:     3759
+  Lucro medio:    3763.90
+  Desvio padrao:  3.38
+  Gap medio em relacao a referencia: 0.0558%
+  Execucoes que atingiram a referencia: 7/10
+  Gap medio em relacao ao LP:        0.3182%
+  Tempo medio por execucao: 44.19 s
+  Filhos duplicados descartados (total): 97851
+  Motivo de parada (melhor execucao): numero de filhos
+
+Melhor solucao (execucao com semente 1)
+  Itens selecionados: 52 de 100
+  Viavel: sim
+  Ocupacao dos recursos: minima 99.05%  media 99.68%  maxima 100.00%
+
+Resultados acrescentados em resultados/20261023_144226_filhos200000/gk01.csv
